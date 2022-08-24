@@ -1,31 +1,20 @@
 <template>
-  <div id="summary-panel" class="d-flex align-center justify-center">
-    <div id="summary-center-content" class="d-flex">
-      <v-lazy transition="slide-x-transition">
-        <div id="summary-left">
-          <div id="summary-banner-text">
-            <p class="S60 C87">1</p>
-          </div>
-          <div class="pb-10">
-            <p class="S20 C87">
-              2
-            </p>
-          </div>
-          <v-btn class="download-btn" width="240" height="60">
-            <div class="FR JC AC height100">
-              <p class="S20 C03dac5" style="letter-spacing: -0.3px">
-                3
-              </p>
-            </div>
-          </v-btn>
-        </div>
-      </v-lazy>
-      <div id="summary-right">
-        <v-lazy transition="slide-x-reverse-transition">
-          <v-img :src="require('@/assets/main-panel.png')" />
-        </v-lazy>
-      </div>
+  <div class="section1 rel">
+    <div class="bg-filter abs"></div>
+    <div class="content abs FC JC AC">
+      <span class="pointer S64 C100">- 윤준영 -</span>
+      <span class="pointer S64 C100 mt-n3 mb-2">웹 개발자 포트폴리오</span>
+      <span class="mb-6" style="min-width : 40px; min-height : 2px; background-color:#F9C51D;"></span>
+      <p class="S20 C87">안녕하세요.</p>
+      <p class="S20 C87 mb-6">공부가 취미인 웹 개발자입니다.</p>
+      <v-btn class="more-btn FR JC AC" color="#F9C51D">
+        <p class="S16 ml-2 mt-1">
+          더 알아보기
+          <v-icon size="24" class="ml-n1 mb-1">mdi-chevron-down</v-icon>
+        </p>
+      </v-btn>
     </div>
+    
   </div>
 </template>
 
@@ -38,44 +27,25 @@ export default class Section1 extends Vue {
 </script>
 
 <style scoped>
-#summary-banner-text {
-  font-size: 60px;
-  padding-bottom: 20px;
-
-  line-height: 70px;
-  word-break: keep-all;
+.section1 {
+  background-image: url("../assets/bg.png");
+  height: 560px;
+}
+.bg-filter {
+  min-width: 100%;
+  min-height: 100%;  
+  background-color: black;
+  opacity: 0.85;
+}
+.content {
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 10;
 }
 
-#summary-left {
-  width: 400px;
-  color: white;
-  margin-right: 122px;
-}
-
-#summary-right {
-  width: 692px;
-  height: 377px;
-}
-
-#summary-panel {
-  padding-top: 90px;
-  background-color: #131515;
-  height: 710px;
-  width: 100%;
-  min-width: 1200px;
-}
-.adjusted-padding {
-  padding-left: 18.75%;
-  padding-right: 18.75%;
-}
-
-#summary-center-content {
-  width: 1200px;
-}
-.download-btn {
-  background-color: transparent !important;
-  box-shadow: none;
-  border: 1px solid #03dac5;
-  border-radius: 4px;
+.more-btn{
+  width: 160px;
+  height: 50px !important;
+  border-radius: 30px;
 }
 </style>

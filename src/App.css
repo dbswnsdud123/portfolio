@@ -1,18 +1,19 @@
 @font-face {
   font-family: "Spoqa Han Sans Neo";
   font-weight: 500;
-  src: local("Spoqa Han Sans Neo Regular"),
-      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff2")
+  src: local("Spoqa Han Sans Neo Medium"),
+      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff2")
           format("woff2"),
-      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff")
+      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff")
           format("woff"),
-      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.ttf")
+      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.ttf")
           format("truetype");
-  unicode-range: U+AC00-D7A3;
 }
 
+@import url('http://fonts.cdnfonts.com/css/black-han-sans');
+
 span {
-  font-family: "Spoqa Han Sans Neo", "Roboto", sans-serif;
+  font-family: "Black Han Sans", "Roboto", sans-serif;
 }
 
 div {
@@ -41,6 +42,37 @@ p {
   word-break: keep-all;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
+.rel{
+  position: relative;
+}
+
+.abs{
+  position: absolute;
+}
+
+.width-content {
+  width: 1200px;
+}
+@media screen and (min-width: 961px) and (max-width: 1280px) {
+  .width-content {
+    width: 900px;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 960px) {
+  .width-content {
+    width: 560px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .width-content {
+    width: 360px;
+  }
+}
+
 .FR {
   display: flex;
   flex-direction: row;
@@ -50,34 +82,34 @@ p {
   flex-direction: column;
 }
 
-.alignS {
+.AS {
   align-items: flex-start;
 }
-.alignC {
+.AC {
   align-items: center;
 }
-.alignE {
+.AE {
   align-items: flex-end;
 }
-.alignSA {
+.ASA {
   align-content: space-around;
 }
-.alignSB {
+.ASB {
   align-content: space-between;
 }
-.justifyS {
+.JS {
   justify-content: flex-start;
 }
-.justifyC {
+.JC {
   justify-content: center;
 }
-.justifyE {
+.JE {
   justify-content: flex-end;
 }
-.justifySA {
+.JSA {
   justify-content: space-around;
 }
-.justifySB {
+.JSB {
   justify-content: space-between;
 }
 
@@ -109,14 +141,14 @@ p {
 .S24 {
   font-size: 24px;
 }
-.S30 {
-  font-size: 34px;
+.S32 {
+  font-size: 32px;
 }
 .S48 {
-  font-size: 34px;
+  font-size: 48px;
 }
-.S60 {
-  font-size: 34px;
+.S64 {
+  font-size: 64px;
 }
 
 .C100 {
@@ -131,14 +163,11 @@ p {
 .C38 {
   color: rgba(255, 255, 255, 0.38) !important;
 }
-.C03dac5 {
-  color: #03dac5 !important;
+.C0 {
+  color: rgba(0, 0, 0, 1) !important;
 }
-.Ce84749 {
-  color: #e84749 !important;
-}
-.C000000 {
-  color: #000000 !important;
+.Cgrey {
+  color: #4D5154;
 }
 
 .width100 {
