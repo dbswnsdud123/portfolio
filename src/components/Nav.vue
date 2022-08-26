@@ -1,10 +1,5 @@
 <template>
-    <v-app-bar
-        class="FR JC AC"
-        fixed
-        color="transparent"
-        elevation="0"
-    >
+    <v-app-bar class="FR JC AC" fixed color="black" elevation="0" style="z-index:100">
     <div class="FR JSB width-content mt-3">
         <p class="pointer S24 C100 ">YJY's Portfolio</p>
         <div class="FR">

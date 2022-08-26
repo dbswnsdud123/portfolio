@@ -54,6 +54,10 @@ p {
   position: absolute;
 }
 
+.drop-shadow{
+  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+
 .width-content {
   width: 1200px;
 }
@@ -165,6 +169,10 @@ p {
 }
 .C0 {
   color: rgba(0, 0, 0, 1) !important;
+}
+.COrange {
+  
+  color: #F4623A !important;
 }
 .Cgrey {
   color: #4D5154;

@@ -70,6 +70,6 @@ export default class Section2 extends Vue {
 <style scoped>
 .section2 {
   background-color: white;
-  height: 440px;
+  padding: 60px 0;
 }
 </style>
