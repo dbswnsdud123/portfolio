@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Spoqa Han Sans Neo";
   font-weight: 500;
-  src: local("Spoqa Han Sans Neo Medium"),
-      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff2")
+  src: local("Spoqa Han Sans Neo Regular"),
+      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff2")
           format("woff2"),
-      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.woff")
+      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.woff")
           format("woff"),
-      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Medium.ttf")
+      url("https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/Subset/SpoqaHanSansNeo/SpoqaHanSansNeo-Regular.ttf")
           format("truetype");
 }
 
@@ -59,22 +59,7 @@ p {
 }
 
 .width-content {
-  width: 1200px;
-}
-@media screen and (min-width: 961px) and (max-width: 1280px) {
-  .width-content {
-    width: 900px;
-  }
-}
-@media screen and (min-width: 601px) and (max-width: 960px) {
-  .width-content {
-    width: 560px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .width-content {
-    width: 360px;
-  }
+  width: 900px;
 }
 
 .FR {
@@ -138,6 +123,9 @@ p {
 }
 .S16 {
   font-size: 16px;
+}
+.S18 {
+  font-size: 18px;
 }
 .S20 {
   font-size: 20px;

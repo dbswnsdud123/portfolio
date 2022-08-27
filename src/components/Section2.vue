@@ -1,57 +1,44 @@
 <template>
   <div class="section2 FC AC JC">
     <span class="S48 C0">ABOUT ME</span>
-    <span class="mb-12" style="min-width : 260px; min-height : 2px; background-color:#F9C51D;"></span>
-    <div class="FC width-content">
-      <div class="FR JSB width100 mb-12">
-        <div class="FR AS width33">
-          <v-icon color="black" size="40" class="mr-6">mdi-account</v-icon>
-          <div class="FC">
-            <p class="C0 S20 WBold mb-2">이름</p>
-            <p class="C0 S16">윤준영</p>
-          </div>
+    <span class="mb-5" style="min-width : 260px; min-height : 2px; background-color:#F9C51D;"></span>
+    <p class="S18 C0 WBold mb-10">3년 차, 변화에 적응하는 개발자 윤준영입니다.</p>
+    
+    <div class="FR JC AS width-content">
+      <v-avatar size="180px" class="border mr-8">
+        <v-img width="190px" height="190px" :src="require('@/assets/profile.jpg')"></v-img>
+      </v-avatar>
+      <div class="FC mr-3">
+
+        <div class="FR AC mb-5">
+          <v-icon color="black" size="32" class="mr-3">mdi-account</v-icon>
+          <p class="C0 S16">이름 : 윤준영</p>
         </div>
 
-        <div class="FR AS width33" style="padding-left:40px">
-          <v-icon color="black" size="40" class="mr-6">mdi-calendar-blank</v-icon>
-          <div class="FC">
-            <p class="C0 S20 WBold mb-2">생년월일</p>
-            <p class="C0 S16">96.01.29</p>
-          </div>
+        <div class="FR AC mb-5">
+          <v-icon color="black" size="32" class="mr-3">mdi-cellphone</v-icon>
+          <p class="C0 S16">Contact : 010-3899-0434</p>
         </div>
 
-        <div class="FR AS width33" style="padding-left:140px">
-          <v-icon color="black" size="40" class="mr-6">mdi-map-marker</v-icon>
-          <div class="FC">
-            <p class="C0 S20 WBold mb-2">주소지</p>
-            <p class="C0 S16">경기도 성남시</p>
-          </div>
+        <div class="FR AC mb-5">
+          <v-icon color="black" size="32" class="mr-3">mdi-gmail</v-icon>
+          <p class="C0 S16">Mail : dbswnsdud12336@gmail.com</p>
+        </div>
+
+        <div class="FR AC mb-5">
+          <v-icon color="black" size="32" class="mr-3">mdi-lead-pencil</v-icon>
+          <p class="C0 S16">아주대 소프트웨어 학사</p>
         </div>
       </div>
-      <!--  -->
-      <div class="FR JSB JC width100">
-        <div class="FR AS width33">
-          <v-icon color="black" size="40" class="mr-6">mdi-cellphone</v-icon>
-          <div class="FC">
-            <p class="C0 S20 WBold mb-2">연락처</p>
-            <p class="C0 S16">010-3899-0434</p>
-          </div>
-        </div>
+      <div class="FC">
 
-        <div class="FR AS width33" style="padding-left:40px">
-          <v-icon color="black" size="40" class="mr-6">mdi-gmail</v-icon>
+        <div class="FR AS mb-5">
+          <v-icon color="black" size="32" class="mr-3">mdi-book-open</v-icon>
           <div class="FC">
-            <p class="C0 S20 WBold mb-2">이메일</p>
-            <p class="C0 S16">dbswnsdud12336@gmail.com</p>
-          </div>
-        </div>
-
-        <div class="FR AS width33" style="padding-left:140px">
-          <v-icon color="black" size="40" class="mr-6">mdi-lead-pencil</v-icon>
-          <div class="FC">
-            <p class="C0 S20 WBold mb-2">학력</p>
-            <p class="C0 S16">아주대학교</p>
-            <p class="C0 S16">소프트웨어</p>
+            <p class="C0 S16 mb-1">github :</p>
+            <a class="mb-5" href="https://github.com/dbswnsdud123">https://github.com/dbswnsdud123</a>
+            <p class="C0 S16 mb-1">blog :</p>
+            <a href="https://groot-dev.tistory.com">https://groot-dev.tistory.com</a>
           </div>
         </div>
       </div>
@@ -70,6 +57,6 @@ export default class Section2 extends Vue {
 <style scoped>
 .section2 {
   background-color: white;
-  padding: 60px 0;
+  padding: 80px 0;
 }
 </style>
