@@ -9,7 +9,6 @@
           <span class="S32 WBold mb-2">GGQ PRO</span>
           <p class="S14 mb-5">(2021.01 ~ 2021.04)</p>
         </div>
-        
         <div class="FR">
           <div class="FC width50">
             <v-carousel>
@@ -22,13 +21,12 @@
                   <img class="width100" :src="require(`@/assets/page_pro/${i}.png`)" />
                 </div>
               </v-carousel-item>
-
             </v-carousel>
           </div>
           <div class="FC width50 pl-10">
             <p class="mb-2"><b>롤 프로팀 내부의 경기, 프로 팀들 간의 비공식 경기를 기록</b>해주는 웹사이트입니다.</p>   
             <p class="mb-2">회사 전체의 사업 전략과 비즈니스 모델을 'AI 분석을 통해 게임을 더 잘하게 해준다'로 변경하고 난 뒤, 처음 프로젝트입니다.</p>
-            <p class="mb-2">일반 게이머들의 경기는 자동으로 데이터가 수집되어 기록되고 관리되지만, 프로의 경기는 코치나 감독의 <b>수작업이 필요하므로 이를 자동화하면 단순 업무 시간을 단축</b>해 코칭 업무에 집중 시켜줄 수 있을 것이라 판단했습니다. 현재까지도 2022년 우승팀인 GEN.G와 컨택을 하면서 발전시켜나가고 있습니다.</p>   
+            <p class="mb-2">일반 게이머들의 경기는 자동으로 데이터가 수집되어 기록되고 관리되지만, 프로의 경기는 코치나 감독의 <b>수작업이 필요하므로 이를 자동화하면 단순 업무 시간을 단축</b>해 코칭 업무에 집중시켜줄 수 있으리라 판단했습니다. 현재까지도 2022년 우승팀인 GEN.G와 컨택을 하면서 발전시켜나가고 있습니다.</p>   
             <p class="mb-2">이 프로젝트를 통해 <b>프로팀들이 가진 불편함을 해소</b>해주면서 정답지로 활용할 수 있는 프로들의 경기를 얻을 수 있었습니다.</p>
             <v-divider class="mb-2"></v-divider>
             <div class="FC">
@@ -38,7 +36,6 @@
               <p>AWS S3, AWS Cloudfront, AWS Route53</p>
             </div>
           </div>
-          
         </div>      
       </div>
     </v-lazy>
@@ -49,7 +46,6 @@
           <span class="S32 WBold mb-2">GGQ Homepage</span>
           <p class="S14 mb-5">(2021.03 ~ 2021.04)</p>
         </div>
-
         <div class="FR">
           <div class="FC width50">
             <v-carousel>
@@ -62,13 +58,12 @@
                   <img class="height100" :src="require(`@/assets/page_home/${i}.png`)" />
                 </div>
               </v-carousel-item>
-
             </v-carousel>
           </div>
           <div class="FC width50 pl-10">
             <p class="mb-2"><b>지지큐컴퍼니 홈 페이지</b>입니다.</p>   
             <p class="mb-2">지지큐컴퍼니가 시리즈 A 투자를 받기 전, 대외적으로 소개할 수 있는 페이지가 필요한 상황이었습니다.</p>
-            <p class="mb-2">처음에는 기존에 사용했던 Vue.js를 사용해 페이지를 만들고 배포를 했으나 네이버, 구글 등의 검색 사이트에 검색 순위가 낮게 나와 페이지를 여러 번 넘겨야 확인이 가능했습니다. 방법을 찾던 도중 <b>SSR, SEO에 관해 알게 되었습니다. Vue.js에서 SSR을 이용할 수 있는 Nuxt.js로 변경하고 다양한 SEO 방법을 적용한 결과, 페이지 게재 1 순위를 달성</b>할 수 있었습니다.</p>   
+            <p class="mb-2">처음에는 기존에 사용했던 Vue.js를 사용해 페이지를 만들고 배포했으나 네이버, 구글 등의 검색 사이트에 검색 순위가 낮게 나와 페이지를 여러 번 넘겨야 확인할 수 있었습니다. 방법을 찾던 도중 <b>SSR, SEO에 관해 알게 되었습니다. Vue.js에서 SSR을 이용할 수 있는 Nuxt.js로 변경하고 다양한 SEO 방법을 적용한 결과, 페이지 게재 1순위를 달성</b>할 수 있었습니다.</p>   
             <p class="mb-2">이 프로젝트를 통해 <b>목적에 맞는 기술을 선택하고 사용하는 것</b>의 중요성을 깨달았습니다.</p>
             <v-divider class="mb-2"></v-divider>
             <div class="FC">
@@ -97,17 +92,15 @@
                 transition="fade-transition"
               >
                 <div class="FR JC AC width100 height100 bg-img">
-                  
                   <img :class="i==2 ? 'height100' : 'width100'" :src="require(`@/assets/desktop_ggq/${i}.png`)" />
                 </div>
               </v-carousel-item>
-
             </v-carousel>
             <div class="width100 FR">
               <div class="FC width70">
                 <p class="mb-2"><b>게이머들의 전적 통계, 게임의 정보, 자동 전적 검색 등 게임의 편의성을 위한 데스크톱 어플리케이션</b>입니다.</p>
-                <p class="mb-2">당시 완성되지 않았던 AI를 활용한 분석을 서비스하는 것은 반발감만 얻을 것이라 판단해서 게임의 편의성을 제공하는 <b>데스크톱 어플리케이션을 제안 및 개발</b>하게 되었습니다. 다른 어플리케이션들과 달리 UI를 게임에 따라다니게 하고, 자동으로 전적 검색을 하는 등의 UI/UX로 차별점을 두었고 이를 통해 현재는 MAU 100,000 이상의 프로그램이 되었으며, PC방 업체와 협업하여 전국 PC방에 프로그램 설치를 진행 중에 있습니다.</p>
-                <p>이 프로젝트를 통해 <b>"우리가 할 수 있는 것 보다 사용자가 원하는 것"의 중요성을 깨달았고, 같은 기능을 제공하더라도 편한 UI/UX가 사용자를 감동</b>시킬 수 있다는 것을 느꼈습니다.</p>
+                <p class="mb-2">당시 완성되지 않았던 AI를 활용한 분석을 서비스하는 것은 반발감만 얻을 것으로 판단해서 게임의 편의성을 제공하는 <b>데스크톱 어플리케이션을 제안 및 개발</b>하게 되었습니다. 다른 어플리케이션들과 달리 UI를 게임에 따라다니게 하고, 자동으로 전적 검색을 하는 등의 UI/UX로 차별점을 두었고 이를 통해 현재는 MAU 100,000 이상의 프로그램이 되었으며, PC방 업체와 협업하여 전국 PC방에 프로그램 설치를 진행 중입니다.</p>
+                <p>이 프로젝트를 통해 <b>"우리가 할 수 있는 것보다 사용자가 원하는 것"의 중요성을 깨달았고, 같은 기능을 제공하더라도 편한 UI/UX가 사용자에게 감동</b>을 주는 것을 느꼈습니다.</p>
               </div>
               <v-divider vertical class="mx-3"></v-divider>
               <div class="FC width30">
@@ -140,7 +133,6 @@
                   <img class="height100" :src="require(`@/assets/page_remote/${i}.png`)" />
                 </div>
               </v-carousel-item>
-
             </v-carousel>
           </div>
           <div class="FC width50 pl-10">
@@ -157,7 +149,6 @@
               <p>Websocket</p>
             </div>
           </div>
-          
         </div>      
       </div>
     </v-lazy>
@@ -180,7 +171,6 @@
                   <img class="width100" :src="require(`@/assets/desktop_converter/${i}.png`)" />
                 </div>
               </v-carousel-item>
-
             </v-carousel>
           </div>
           <div class="FC width50 pl-10">
@@ -217,7 +207,6 @@
                   <img :src="require(`@/assets/page_plap/${i}.png`)" />
                 </div>
               </v-carousel-item>
-
             </v-carousel>
           </div>
           <div class="FC width50 pl-10">
@@ -233,7 +222,6 @@
               <p>Docker, Github Action, AWS ECS, AWS EC2, AWS Cloudfront, AWS Route53</p>
             </div>
           </div>
-          
         </div>      
       </div>
     </v-lazy>
@@ -246,19 +234,6 @@ import { Vue, Component } from "vue-property-decorator";
 
 @Component({})
 export default class Section4 extends Vue {
-  items = [{
-      src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
-    },
-    {
-      src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
-    },
-    {
-      src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-    },
-    {
-      src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-    },
-  ]
 }
 </script>
 
