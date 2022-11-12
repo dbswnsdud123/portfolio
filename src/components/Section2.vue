@@ -2,7 +2,7 @@
   <div class="section2 FC AC JC">
     <span class="S48 C0">ABOUT ME</span>
     <span class="mb-5" style="min-width : 260px; min-height : 2px; background-color:#F9C51D;"></span>
-    <p class="S18 C0 WBold mb-10">3년 차, 누구보다 빠른 프론트 엔드 개발자 윤준영입니다.</p>
+    <p class="S18 C0 WBold mb-10">3년 차, 능동적인 프론트 엔드 개발자 윤준영입니다.</p>
     
     <div class="FR JC AS width-content">
       <v-avatar size="180px" class="border mr-8">

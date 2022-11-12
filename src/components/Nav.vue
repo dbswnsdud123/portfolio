@@ -1,13 +1,10 @@
 <template>
     <v-app-bar class="FR JC AC" fixed color="black" elevation="0" style="z-index:100">
-    <div class="FR JSB width-content mt-3">
-        <p class="pointer S24 C100 ">YJY's Portfolio</p>
-        <div class="FR">
-            <p class="pointer S16 C100 WBold mr-8">About me</p>
-            <p class="pointer S16 C100 WBold mr-8">Skills</p>
-            <p class="pointer S16 C100 WBold mr-8">Archiving</p>
-            <p class="pointer S16 C100 WBold mr-8">Projects</p>
-            <p class="pointer S16 C100 WBold">Career</p>
+    <div class="FR JSB width-content">
+        <span class="pointer S20 C100">YJY's Portfolio</span>
+        <div class="FR mt-1">
+            <router-link to="/"><p class="pointer S16 C100 WBold mr-8">Portfolio</p></router-link>
+            <router-link to="/career"><p class="pointer S16 C100 WBold mr-8">Career</p></router-link>
         </div>
     </div>
     </v-app-bar>

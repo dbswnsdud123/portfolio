@@ -1,7 +1,7 @@
 <template>
   <div class="section3 FC AC rel">
-    <span class="S48 C100">Introduce</span>
-    <span class="mb-12" style="min-width : 260px; min-height : 2px; background-color:#ffffff;"></span>
+    <span class="S48 C100">INTRODUCE</span>
+    <span class="mb-12" style="min-width : 280px; min-height : 2px; background-color:#ffffff;"></span>
     
     <div class="FR JSB width-content">
       <v-lazy transition="slide-x-transition" class="width100" > 

@@ -35,13 +35,11 @@ input {
 
 p {
   font-family: "Spoqa Han Sans Neo", "Roboto", sans-serif;
-  word-break: break-all;
 }
 
 /* text  */
 .v-application p {
   margin-bottom: 0px;
-  word-break: keep-all;
 }
 
 .pointer {
