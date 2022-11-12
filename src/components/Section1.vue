@@ -3,9 +3,9 @@
     <div class="bg-filter abs"></div>
     <div class="content abs FC JC AC">
       <span class="pointer S64 C100">- 윤준영 -</span>
-      <span class="pointer S64 C100 mt-n3 mb-2">변화를 두려워 하지 않는 웹 개발자</span>
+      <span class="pointer S64 C100 mt-n3 mb-2">누구보다 빠른 프론트 엔드 개발자</span>
       <span class="mb-6" style="min-width : 40px; min-height : 2px; background-color:#F9C51D;"></span>
-      <p class="S16 C87 mb-6">2022년 6월 업데이트</p>
+      <p class="S16 C87 mb-6">2022년 11월 업데이트</p>
     </div>
     
   </div>
@@ -33,7 +33,6 @@ export default class Section1 extends Vue {
 .content {
   min-width: 100%;
   min-height: 100%;
-  padding-top: 100px;
   z-index: 10;
 }
 

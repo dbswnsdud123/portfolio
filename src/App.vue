@@ -1,6 +1,6 @@
 <template>
   <v-app class="app">
-    <Nav />
+    <!-- <Nav /> -->
      
     <v-main class="main">
       <router-view />
