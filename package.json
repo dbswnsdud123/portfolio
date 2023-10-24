@@ -1,0 +1,11 @@
+{
+  "name": "vuepress-starter",
+  "scripts": {
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "packageManager": "yarn@3.2.4",
+  "devDependencies": {
+    "vuepress": "next"
+  }
+}
